@@ -1,0 +1,51 @@
+#app{
+    &.bg-1a2146{
+        background-color: #1a2146
+    }
+    .bg-1a2146{
+        background-color: #1a2146
+    }
+    .banner-text-gradient{
+        background: linear-gradient(rgba(30, 0, 253, 0.706), rgba(63, 42, 222, 0.624), #D524E1, #D524E1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .about-text-gradient{
+        background: linear-gradient(to right, #ffffff, #D524E1, #1F00FD);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .counter-section{
+        .counter-row{
+            &:nth-child(1),
+            &:nth-child(2){
+                &:after{
+                    content: "";
+                    width: 2px;
+                    height: 70%;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: auto;
+                    right: 0;
+                    margin: auto;
+                    background: -webkit-linear-gradient(#1a2146, #8D2A88,#5E2AA3, #1a2146);
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
+
+
+@media  (max-width: 768px){
+    .counter-row{
+        &:nth-child(1),
+        &:nth-child(2)
+        {
+            &:after{
+                 display: none;
+            }
+        }
+    }
+}

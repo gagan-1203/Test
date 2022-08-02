@@ -1,0 +1,12 @@
+// RESET 
+#app{
+    @media (min-width: 1600px){
+        .container {
+            max-width: 1450px;
+        }
+    }
+    .v-tabs-bar{
+        height: auto;
+    }
+}
+

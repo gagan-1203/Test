@@ -1,0 +1,17 @@
+#app {
+    .v-tabs--fixed-tabs>.v-tabs-bar .v-tab {
+        flex: 0 0 auto;
+        width: auto;
+        font-size: 18px;
+        padding: 20px 25px;
+        text-transform: capitalize;
+        color: #fff;
+        opacity: 0.9;
+        .v-ripple__container{
+            display: none;
+        }
+        &::before{
+            display: none;
+        }
+    }
+} 

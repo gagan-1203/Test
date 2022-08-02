@@ -1,0 +1,13 @@
+#app {
+  .btn-grad {
+    background-image: linear-gradient(to right, #D524E1 0%, #1F00FD 80%, #1F00FD 100%);
+    background-size: 200% auto;
+    transition: 0.5s;
+  }
+
+  .btn-grad:hover {
+    background-position: right center;
+    transition: 0.5s ease-in;
+  }
+  
+}

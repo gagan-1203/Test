@@ -1,0 +1,37 @@
+.nft-active-grid {
+    background-color: #ffffff;
+    svg {
+        path{
+            fill: #04091E;
+        }
+    }
+}
+
+.nft-explore-card {
+    height: 438px;
+    border: unset;
+    position: relative;
+
+    .nft-explore-card-img {
+        height: 50%;
+    }
+
+    .nft-card-category {
+        position: absolute;
+        top: 193px;
+        left: 24px;
+        border-radius: 57px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .nft-duration {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #8F23B8;
+
+        span {
+            color: #3D435B !important;
+        }
+    }
+}

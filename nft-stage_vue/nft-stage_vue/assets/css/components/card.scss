@@ -1,0 +1,12 @@
+.card{
+    background-image: linear-gradient(to right bottom, #d524e1, #bc06e7, #9d00ee, #7400f5, #1f00fd);
+    border-radius: 5px;
+    overflow: hidden;
+    .card-wrapper{
+        background-color: #1a2146;
+    }
+    .inner-card{
+        background-color: #1a2146;
+        border-radius: 6px;
+    }
+}

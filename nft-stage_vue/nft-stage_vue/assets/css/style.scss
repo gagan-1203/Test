@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: #1a2146
+}
+
+// TAILWIND CSS 
+@tailwind base;
+@tailwind components; 
+@tailwind utilities;
+
+// VUETIFY RESET VARIABLES 
+@import './vuetify/variables.scss';
+// COMPONENTS
+@import './components/buttons.scss';
+@import './components/navbar.scss';
+@import './components/card.scss';
+@import './components/teams.scss';
+@import './components/footer.scss';
+@import './components/accordion.scss';
+
+
+// UTILITIES 
+@import './partials/fonts.scss';
+@import './partials/backgrounds.scss';
+// RESET 
+@import './partials/reset.scss';
+// EXPLORE Page
+@import './explore/explorePage.scss'

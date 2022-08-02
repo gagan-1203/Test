@@ -1,0 +1,28 @@
+.accordian-outer{
+    max-width: 1200px;
+    width: 100%;
+    .accordian-inner{
+        .theme--light.v-expansion-panels .v-expansion-panel {
+            background-color: #ffffff00 ;
+            color: rgb(255 255 255 / 87%);
+            border-bottom: 1px solid rgb(255 255 255 / 10%) ;
+        }
+        .v-expansion-panel::before {
+            box-shadow: none;
+        }
+        .v-expansion-panel-header {
+            padding: 28px 20px ;
+        }
+        .mdi-chevron-down::before {
+            content: "\F0140";
+            color:rgb(255 255 255 / 87%);
+        }
+    }
+}
+
+
+
+
+
+
+
